@@ -22,13 +22,59 @@ Antes de trabajar, es importante tener instalado **GraphDB** localmente para pod
 
 ✅ ¡Listo! Ahora tienes un servidor de GraphDB funcionando localmente.
 
-> **Tip:** Es muy útil crear un repositorio vacío llamado "zoila" para ir cargando los datos que construyamos.
+> **Tip:** Crea un repositorio vacío llamado **zoila** para cargar los datos que construiremos.
 
 ### Instalación de librerías Python necesarias
 
 ```bash
 pip install rdflib pandas requests tqdm
 ```
+
+### Cargar el dataset base y hacer consultas SPARQL de prueba
+
+Una vez que subas `dataset.ttl` a tu repositorio en GraphDB, puedes hacer consultas SPARQL para explorar los datos.
+
+**Ejemplos de consultas:**
+
+- Obtener todos los títulos:
+
+```sparql
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+SELECT ?titulo WHERE {
+  ?s dc:title ?titulo .
+}
+LIMIT 10
+```
+
+- Obtener todas las entidades y sus tipos:
+
+```sparql
+SELECT ?entidad ?tipo WHERE {
+  ?entidad a ?tipo .
+}
+LIMIT 10
+```
+
+- Buscar todas las obras con algún tipo de autoría registrada:
+
+```sparql
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+SELECT ?obra ?autor WHERE {
+  ?obra dc:creator ?autor .
+}
+LIMIT 10
+```
+
+🔎 **¿Cómo hacer esto en GraphDB?**
+
+1. Carga el archivo `dataset.ttl` en tu repositorio "zoila".
+2. Dirígete a la pestaña **SPARQL** en la consola de GraphDB.
+3. Copia y pega una de las consultas de ejemplo.
+4. Presiona el botón **Run** y observa los resultados.
+
+Esta exploración inicial te ayudará a familiarizarte con la estructura de los datos.
 
 ---
 
