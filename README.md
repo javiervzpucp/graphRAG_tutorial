@@ -8,179 +8,163 @@ Cada etapa incluye instrucciones claras y código funcional para que puedas avan
 
 ---
 
-# Paso 1: Preparación del Entorno y Primeras Consultas
+## Paso 1: Preparación del Entorno
+
+Antes de trabajar, es importante tener instalado **GraphDB** localmente para poder visualizar, editar y consultar el grafo que construiremos.
 
 ### Instalación de GraphDB en Windows
 
-1. Dirígete a: [GraphDB Free](https://www.ontotext.com/products/graphdb/graphdb-free/)
+1. Dirígete a: [https://www.ontotext.com/products/graphdb/graphdb-free/](https://www.ontotext.com/products/graphdb/graphdb-free/)
 2. Descarga la versión **GraphDB Free**.
-3. Extrae el ZIP en `C:\GraphDB\`.
-4. Ejecuta `graphdb.exe`.
-5. Accede en [http://localhost:7200](http://localhost:7200).
+3. Extrae el archivo ZIP descargado en una carpeta de tu elección (por ejemplo: `C:\GraphDB\`).
+4. Dentro de la carpeta, ejecuta el archivo `graphdb.exe`.
+5. Accede a la consola de administración a través de tu navegador en: [http://localhost:7200](http://localhost:7200)
 
-> ⬆️ Crea un repositorio llamado **zoila** en GraphDB para cargar tu archivo `dataset.ttl`.
+✅ ¡Listo! Ahora tienes un servidor de GraphDB funcionando localmente.
 
-### Instalación de librerías Python
+> **Tip:** Crea un repositorio vacío llamado **zoila** para cargar los datos que construiremos.
+
+### Instalación de librerías Python necesarias
 
 ```bash
 pip install rdflib pandas requests tqdm
 ```
 
-### Cargar datos en GraphDB y ejecutar consultas SPARQL
+### Cargar el dataset base y hacer consultas SPARQL de prueba
 
-Una vez cargado el `dataset.ttl`, prueba algunas consultas:
+Una vez que subas `dataset.ttl` a tu repositorio en GraphDB, puedes hacer consultas SPARQL para explorar los datos.
 
-- **Listar títulos**
+**Ejemplos de consultas:**
+
+- Obtener todos los títulos:
 
 ```sparql
-SELECT DISTINCT ?titulo WHERE {
-  ?s <http://purl.org/dc/elements/1.1/title> ?titulo .
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+SELECT ?titulo WHERE {
+  ?s dc:title ?titulo .
 }
+LIMIT 10
 ```
 
-- **Explorar entidades**
+- Obtener todas las entidades y sus tipos:
 
 ```sparql
-SELECT DISTINCT ?s ?p ?o WHERE {
-  ?s ?p ?o .
-} LIMIT 10
-```
-
-- **Buscar autorías**
-
-```sparql
-SELECT DISTINCT ?obra ?autor WHERE {
-  ?obra <http://purl.org/dc/elements/1.1/creator> ?autor .
+SELECT ?entidad ?tipo WHERE {
+  ?entidad a ?tipo .
 }
+LIMIT 10
 ```
+
+- Buscar todas las obras con algún tipo de autoría registrada:
+
+```sparql
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+SELECT ?obra ?autor WHERE {
+  ?obra dc:creator ?autor .
+}
+LIMIT 10
+```
+
+🔎 **¿Cómo hacer esto en GraphDB?**
+
+1. Carga el archivo `dataset.ttl` en tu repositorio "zoila".
+2. Dirígete a la pestaña **SPARQL** en la consola de GraphDB.
+3. Copia y pega una de las consultas de ejemplo.
+4. Presiona el botón **Run** y observa los resultados.
+
+Esta exploración inicial te ayudará a familiarizarte con la estructura de los datos.
 
 ---
 
-# Paso 2: Exploración del Dataset Base
+## Paso 2: Exploración del Dataset Base
 
-### Cargar y explorar el grafo en Python
+El archivo `dataset.ttl` que has subido contiene los datos originales en formato **RDF/Turtle**. Vamos a cargarlo y explorarlo.
+
+### Código Python para cargar el TTL
 
 ```python
 from rdflib import Graph
 
+# Carga del grafo base
 g = Graph()
 g.parse("/mnt/data/dataset.ttl", format="ttl")
 
 print(f"Grafo cargado con {len(g)} triples.")
 
+# Opcional: Mostrar algunas triples de ejemplo
 for s, p, o in list(g)[:10]:
     print(s, p, o)
 ```
 
+Este paso nos permite ver qué entidades, propiedades y relaciones ya existen.
+
 ---
 
-# Paso 3: Enlaces a Wikipedia y Wikidata
+## Paso 3: Extracción de Títulos y Enlaces a Wikipedia/Wikidata
 
-### Buscar enlaces externos
+El siguiente objetivo es buscar si los **títulos** del álbum tienen correspondencias en Wikipedia y Wikidata.
+
+### Código Python para buscar conexiones externas
 
 ```python
 import requests
 from tqdm import tqdm
 
-# Buscar en Wikipedia
-# Buscar Q-ID en Wikidata
-# Guardar enlaces en un diccionario
+# Funciones auxiliares
+def buscar_wikipedia(titulo, lang="es"):
+    url = f"https://{lang}.wikipedia.org/w/api.php"
+    params = {
+        "action": "query",
+        "list": "search",
+        "srsearch": titulo,
+        "format": "json"
+    }
+    response = requests.get(url, params=params)
+    data = response.json()
+    results = data.get("query", {}).get("search", [])
+    if results:
+        return f"https://{lang}.wikipedia.org/wiki/" + results[0]['title'].replace(" ", "_")
+    return None
+
+def buscar_wikidata(wikipedia_url):
+    url = "https://www.wikidata.org/w/api.php"
+    params = {
+        "action": "wbgetentities",
+        "sites": "eswiki",
+        "titles": wikipedia_url.split("/")[-1],
+        "format": "json"
+    }
+    response = requests.get(url, params=params)
+    data = response.json()
+    entities = data.get("entities", {})
+    if entities:
+        return list(entities.keys())[0]  # Q-ID
+    return None
+
+# Iterar sobre títulos del grafo
+titulo_query = """
+SELECT DISTINCT ?titulo WHERE {
+  ?s <http://purl.org/dc/elements/1.1/title> ?titulo .
+}
+"""
+
+resultados = g.query(titulo_query)
+
+enlaces = {}
+
+for row in tqdm(resultados, desc="Buscando enlaces externos"):
+    titulo = str(row[0])
+    wiki_url = buscar_wikipedia(titulo)
+    if wiki_url:
+        qid = buscar_wikidata(wiki_url)
+        enlaces[titulo] = {"wikipedia": wiki_url, "wikidata": qid}
+
+# Mostrar un resumen
+for titulo, datos in list(enlaces.items())[:5]:
+    print(f"{titulo} -> {datos}")
 ```
 
-### Ejemplo de resultados
+**Resultado:** Un diccionario que mapea cada título a su URL en Wikipedia y su Q-ID en Wikidata si existe.
 
-```
-"Huayno" -> {"wikipedia": "https://es.wikipedia.org/wiki/Huayno", "wikidata": "Q306702"}
-```
-
-Estos enlaces permitirán **expandir** nuestro grafo original.
-
----
-
-# Paso 4: Enriquecimiento Automático del Grafo
-
-- Agregar descripciones.
-- Agregar imágenes.
-- Agregar categorías.
-
-```python
-# Para cada entidad conectada, consultar Wikidata y añadir propiedades
-```
-
-Resultado esperado: **+ metadatos** y **+ relaciones semánticas** para cada entidad.
-
----
-
-# Paso 5: Creación de Embeddings y Combinación
-
-## Paso 5.1: Embeddings de texto
-
-Extraemos embeddings textuales de las descripciones enriquecidas:
-
-```python
-from sentence_transformers import SentenceTransformer
-
-model = SentenceTransformer('all-MiniLM-L6-v2')
-
-textos = []
-subjects = []
-
-for s, p, o in g.triples((None, None, None)):
-    if p.endswith("wikidataDescription"):
-        textos.append(str(o))
-        subjects.append(str(s))
-
-text_embeddings = model.encode(textos)
-```
-
-## Paso 5.2: Embeddings estructurales (Node2Vec)
-
-```python
-import networkx as nx
-from node2vec import Node2Vec
-
-# Crear grafo de red
-G = nx.Graph()
-
-for s, p, o in g:
-    G.add_edge(str(s), str(o))
-
-# Node2Vec
-node2vec = Node2Vec(G, dimensions=64, walk_length=30, num_walks=200, workers=2)
-model_n2v = node2vec.fit()
-
-structural_embeddings = []
-for subject in subjects:
-    structural_embeddings.append(model_n2v.wv.get_vector(subject))
-```
-
-## Paso 5.3: Combinar embeddings
-
-```python
-import numpy as np
-
-combined_embeddings = []
-
-for i in range(len(subjects)):
-    combined = 0.6 * text_embeddings[i] + 0.4 * structural_embeddings[i]
-    combined_embeddings.append(combined)
-```
-
----
-
-# Esquema general del flujo de datos
-
-```latex
-\begin{tikzpicture}[node distance=1.5cm and 2cm]
-\node (data) [process] {Dataset Zoila};
-\node (graphdb) [process, below=of data] {GraphDB Carga + Consultas};
-\node (enrich) [process, below=of graphdb] {Wikipedia/Wikidata Enriquecimiento};
-\node (embedding) [process, below=of enrich] {Embeddings Textuales + Node2Vec};
-\node (combined) [process, below=of embedding] {Embeddings Combinados};
-
-\draw [arrow] (data) -- (graphdb);
-\draw [arrow] (graphdb) -- (enrich);
-\draw [arrow] (enrich) -- (embedding);
-\draw [arrow] (embedding) -- (combined);
-\end{tikzpicture}
-```
