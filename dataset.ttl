@@ -1,0 +1,3402 @@
+@base <http://example.com/album> .
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lexvo: <http://lexvo.org/id/iso639-3/> .
+
+<ZAC-001> a schema:CreativeWork;
+  dcterms:title "Tapa dura de álbum" .
+
+<ZAC-002-estampilla> a schema:CreativeWork;
+  dcterms:title "Estampilla Fabbri Hermanos";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//viaf.org/viaf/169631729/>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "imagen";
+  schema:additionalType "estampilla" .
+
+<%5Bno%20disponible%5D> schema:name "[no disponible]", "Saint Just", "América Literaria",
+    "Penumbras", "Literatura y Arte", "Höcker, L.", "Carles, C.", "Checa, V.", "Velar, María Ercilia",
+    "Littelmann, Katharina", "[ininteligible]", "Bédu, Charlette Adrianne", "Evans", "El Tiempo",
+    "Gutierrez, Federico A.", "J.M.B.", "Letras", "La Semana Literaria", "El Faro" .
+
+<https%3A//viaf.org/viaf/169631729/> schema:name "Litografia y Tipografia Carlos Fabbri (Lima)" .
+
+<https%3A//www.wikidata.org/wiki/Q2868> schema:name "Lima, Perú" .
+
+<ZAC-002-tarjeta> a schema:CreativeWork;
+  dcterms:title "Tarjeta Señorita Zoila Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-003-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel";
+  dcterms:type "imagen";
+  schema:additionalType "recorte" .
+
+<ZAC-004> a schema:CreativeWork;
+  dcterms:title "Página en blanco" .
+
+<ZAC-005-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de Andrés A. Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía" .
+
+<ZAC-005/006-recorte1> a schema:CreativeWork;
+  dcterms:title "Intelectuales latino americanos";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1903";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-006-recorte2> a schema:CreativeWork;
+  dcterms:title "Nocturna";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-007-recorte1> a schema:CreativeWork;
+  dcterms:title "Americanismo";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q4822525> schema:name "Cáceres, Zoila Aurora, 1872-1958" .
+
+<https%3A//www.wikidata.org/wiki/Q90> schema:name "París, Francia" .
+
+<ZAC-007-recorte2> a schema:CreativeWork;
+  dcterms:title "Sentimientos";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-007/008-tarjeta> a schema:CreativeWork;
+  dcterms:title "Tarjeta de invitación a banquete";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q220>;
+  dcterms:date "1893-03-02";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<https%3A//www.wikidata.org/wiki/Q220> schema:name "Roma, Italia" .
+
+<ZAC-009-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Alfredo Palacios a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q2880118>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1906-02";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q2880118> schema:name "Palacios, Alfredo Lorenzo, 1878-1965" .
+
+<%5Bno%20aplica%5D> schema:name "[no aplica]" .
+
+<ZAC-010-recorte1> a schema:CreativeWork;
+  dcterms:title "Condiccion [sic] juridica de la mujer";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-010-recorte2> a schema:CreativeWork;
+  dcterms:title "Espíritu burlón";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q272795>;
+  dcterms:date "1899";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-019-recorte2, ZAC-033-recorte, ZAC-222-recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q272795> schema:name "Tacna, Perú" .
+
+<ZAC-011/012-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Darío Perez a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q28723513>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q28518824>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1492>;
+  dcterms:date "1902-05-13";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q28723513> schema:name "Pérez García, Darío, 1869-1945" .
+
+<https%3A//www.wikidata.org/wiki/Q28518824> schema:name "El Liberal (Barcelona, 1901-1935)" .
+
+<https%3A//www.wikidata.org/wiki/Q1492> schema:name "Barcelona, España" .
+
+<ZAC-013-recorte1> a schema:CreativeWork;
+  dcterms:title "Las teologales. Caridad. Dictado para una velada de beneficencia";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2203>;
+  dcterms:date "1899";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-027-recorte1, ZAC-113-recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q2203> schema:name "Arica, Chile" .
+
+<ZAC-013-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de Enrique Gómez Carrillo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel";
+  dcterms:type "imagen";
+  schema:additionalType "recorte" .
+
+<ZAC-013-recorte2> a schema:CreativeWork;
+  dcterms:title "Presentación de Zoila Aurora Cáceres como colaboradora en una publicación literaria";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-027-recorte2, ZAC-013-recorte1" .
+
+<ZAC-014-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Helene Lange a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q75209>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q651009>;
+  dcterms:date "1902-11-18";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta";
+  dcterms:relation "ZAC-109/111-carta" .
+
+<https%3A//www.wikidata.org/wiki/Q75209> schema:name "Lange, Helene, 1848-1930" .
+
+<https%3A//www.wikidata.org/wiki/Q651009> schema:name "Berlín, Alemania" .
+
+<ZAC-015/016-recorte> a schema:CreativeWork;
+  dcterms:title "¡Memento!";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-042/043-recorte1, ZAC-129-recorte2" .
+
+<ZAC-017/018-carta> a schema:CreativeWork;
+  dcterms:title "Carta de María Luisa de Austria a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q3847395>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q987487>;
+  dcterms:date "1902-11-15";
+  dcterms:language lexvo:ita;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q3847395> schema:name "Maria Luisa Isenburg-Birstein, Fürstin 1845-1917" .
+
+<https%3A//www.wikidata.org/wiki/Q987487> schema:name "Schlackenwerth, República Checa" .
+
+<ZAC-019-recorte1> a schema:CreativeWork;
+  dcterms:title "Perú";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-019-recorte2> a schema:CreativeWork;
+  dcterms:title "Espíritu burlón";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q272795>;
+  dcterms:date "1899";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-010-recorte2, ZAC-033-recorte, ZAC-222-recorte" .
+
+<ZAC-020-tarjeta1> a schema:CreativeWork;
+  dcterms:title "Tarjeta de invitación a banquete";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1892-03-31";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-020/021-tarjeta2> a schema:CreativeWork;
+  dcterms:title "Tarjeta de presentación de José María Gutiérrez";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q2835582>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1903-03-12";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<https%3A//www.wikidata.org/wiki/Q2835582> schema:name "Gutiérrez, José María, 1831-1903" .
+
+<ZAC-022-recorte1> a schema:CreativeWork;
+  dcterms:title "Artículo sobre Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-022-recorte2> a schema:CreativeWork;
+  dcterms:title "Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-023-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Enrico Piccione a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q19441214>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2887>;
+  dcterms:date "1901-09-25";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q19441214> schema:name "Piccione, Enrico, 1862-1929" .
+
+<https%3A//www.wikidata.org/wiki/Q2887> schema:name "Santiago, Chile" .
+
+<ZAC-024-carta> a schema:CreativeWork;
+  dcterms:title "Carta de L. Höcker a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q64>;
+  dcterms:date "[ininteligible]";
+  dcterms:language lexvo:deu;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q64> schema:name "Berlín, Alemania" .
+
+<ZAC-025/026-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q64>;
+  dcterms:date "1902-11-11";
+  dcterms:language lexvo:deu;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-027-recorte1> a schema:CreativeWork;
+  dcterms:title "Las teologales. Caridad. Dictado para una velada de beneficencia";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2203>;
+  dcterms:date "1899";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-013-recorte1, ZAC-113-recorte" .
+
+<ZAC-027-recorte2> a schema:CreativeWork;
+  dcterms:title "Presentación de Zoila Aurora Cáceres como colaboradora en una publicación literaria";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-013-recorte2, ZAC-027-recorte1" .
+
+<ZAC-027-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel";
+  dcterms:type "imagen";
+  schema:additionalType "recorte" .
+
+<ZAC-027-recorte3> a schema:CreativeWork;
+  dcterms:title "Flor del aire";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1900";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-028/029-carta> a schema:CreativeWork;
+  dcterms:title "Carta de la Baronesa de Wilson a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5830843>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1492>;
+  dcterms:date "1902-01-21";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q5830843> schema:name "Wilson, Emilia Serrano, baronesa de, 1843-1922" .
+
+<ZAC-030-recorte> a schema:CreativeWork;
+  dcterms:title "Notas sociales. De regreso";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-030-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel";
+  dcterms:type "imagen";
+  schema:additionalType "recorte" .
+
+<ZAC-031/032-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Mariano José Madueño a Zoila Aurora Cáceres";
+  dcterms:creator <http%3A//viaf.org/viaf/21151050030433411799>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2807>;
+  dcterms:date "1900-11-24";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<http%3A//viaf.org/viaf/21151050030433411799> schema:name "Madueño, Mariano José, 1854-1908" .
+
+<https%3A//www.wikidata.org/wiki/Q2807> schema:name "Madrid, España" .
+
+<ZAC-033-recorte> a schema:CreativeWork;
+  dcterms:title "Espíritu burlón";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q272795>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-010-recorte2, ZAC-019-recorte2, ZAC-222-recorte" .
+
+<ZAC-033/034-tarjeta> a schema:CreativeWork;
+  dcterms:title "Tarjeta de C. Carles";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "[ininteligible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-035/037-carta> a schema:CreativeWork;
+  dcterms:title "Carta de V. Checa a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1486>;
+  dcterms:date "1902-06-24";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q1486> schema:name "Buenos Aires, Argentina" .
+
+<ZAC-038-foto> a schema:CreativeWork;
+  dcterms:title "Retrato al carboncillo de Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q3014183>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía" .
+
+<https%3A//www.wikidata.org/wiki/Q3014183> schema:name "Hernández Morillo, Daniel, 1856-1932" .
+
+<ZAC-039/040-tarjeta> a schema:CreativeWork;
+  dcterms:title "Tarjeta de la revista Literatura y Arte a sus colegas y colaboradores literarios";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5340591>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1491>;
+  dcterms:date "1902-01-01";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<https%3A//www.wikidata.org/wiki/Q5340591> schema:name "Díez de Medina, Eduardo, 1881-1955" .
+
+<https%3A//www.wikidata.org/wiki/Q1491> schema:name "La Paz, Bolivia" .
+
+<ZAC-039-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Benjamín Guzmán a Zoila Aurora Cáceres";
+  dcterms:creator <http%3A//viaf.org/viaf/48276162>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2907>;
+  dcterms:date "1900-09";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<http%3A//viaf.org/viaf/48276162> schema:name "Guzmán C., Benjamín, 1873-" .
+
+<https%3A//www.wikidata.org/wiki/Q2907> schema:name "Sucre, Bolivia" .
+
+<ZAC-041-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Dorothea Hirschfeld a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q15449918>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q64>;
+  dcterms:date "1902-11-08";
+  dcterms:language lexvo:deu;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q15449918> schema:name "Hirschfeld, Dorothea, 1877-1966" .
+
+<ZAC-042/043-recorte1> a schema:CreativeWork;
+  dcterms:title "¡Memento!";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-015/016-recorte, ZAC-129-recorte2" .
+
+<ZAC-042-recorte2> a schema:CreativeWork;
+  dcterms:title "Nuestros grabados";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-043-recorte3> a schema:CreativeWork;
+  dcterms:title "Poder";
+  dcterms:creator <http%3A//viaf.org/viaf/202348332>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<http%3A//viaf.org/viaf/202348332> schema:name "Mujía, Ricardo, 1861-" .
+
+<ZAC-044/048-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Juan Antonio Benlliure a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q9015146>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q220>;
+  dcterms:date "1895-09-24";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta";
+  dcterms:relation "ZAC-049-sobre" .
+
+<https%3A//www.wikidata.org/wiki/Q9015146> schema:name "Benlliure, Juan Antonio, 1859-1930" .
+
+<ZAC-049-sobre> a schema:CreativeWork;
+  dcterms:title "Para la Señorita Zoyla Cácerez";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q9015146>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q220>;
+  dcterms:date "1895-09-24";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "objeto físico";
+  schema:additionalType "sobre";
+  dcterms:relation "ZAC-044/048-carta" .
+
+<ZAC-050/052-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1902-12-18";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-053-carta> a schema:CreativeWork;
+  dcterms:title "Carta de María Ercilia Velar a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1486>;
+  dcterms:date "1901-03-28";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-054/056-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Katharina Littelmann a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q64>;
+  dcterms:date "1902-10-20";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-057-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel";
+  dcterms:type "imagen";
+  schema:additionalType "recorte" .
+
+<ZAC-058/060-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1903-05-31";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-061-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[ininteligible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-062/063-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q64>;
+  dcterms:date "1902-11-09";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-064/066-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Mariano Benlliure a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q2402329>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2807>;
+  dcterms:date "1902-07-18";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q2402329> schema:name "Benlliure, Mariano, 1862-1947" .
+
+<ZAC-067/068-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Charlette Adrianne Bédu a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-069/071-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:eng;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-072/073-postal> a schema:CreativeWork;
+  dcterms:title "Tarjeta postal de Alfredo Palacios con dedicatoria para Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q2880118>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1486>;
+  dcterms:date "1906-02-08";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta postal" .
+
+<ZAC-074/075-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Alfredo Palacios a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q2880118>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1486>;
+  dcterms:date "1902-08-19";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-076/078-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1902-09-18";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-079-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Ersilia Caetani Lovatelli a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q1361810>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q1361810> schema:name "Caetani-Lovatelli, Ersilia, 1840-1925" .
+
+<ZAC-080-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-081-recorte> a schema:CreativeWork;
+  dcterms:title "Americanismo";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-081-carnet> a schema:CreativeWork;
+  dcterms:title "Carné de Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q3045917>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1901/1902";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "carné de identidad";
+  dcterms:relation "ZAC-103-carnet" .
+
+<https%3A//www.wikidata.org/wiki/Q3045917> schema:name "École des Hautes Études Sociales. École Sociale" .
+
+<ZAC-082/083-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Rachel y Gustav Kahn a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q110225331>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q110225331> schema:name "Kahn, Rachel, 1860-1933" .
+
+<https%3A//www.wikidata.org/wiki/Q462364> schema:name "Kahn, Gustave, 1859-1936" .
+
+<ZAC-084-carta> a schema:CreativeWork;
+  dcterms:title "Carta de M. Salvador Ulloa a Zoila Aurora Cáceres";
+  dcterms:creator <http%3A//viaf.org/viaf/25163510321010932092>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q272795>;
+  dcterms:date "1900-11-07";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<http%3A//viaf.org/viaf/25163510321010932092> schema:name "Ulloa, Manuel Salvador" .
+
+<ZAC-085-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía en cementerio";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía" .
+
+<ZAC-086-recorte1> a schema:CreativeWork;
+  dcterms:title "De Marsella a Tokio por Gómez Carrillo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-086-recorte2> a schema:CreativeWork;
+  dcterms:title "L'arrivo dei pubblicisti francesi";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q3792935>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q490>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:ita;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q3792935> schema:name "Il Secolo (Milán, 1866-1927)" .
+
+<https%3A//www.wikidata.org/wiki/Q490> schema:name "Milán, Italia" .
+
+<ZAC-086-recorte3> a schema:CreativeWork;
+  dcterms:title "Hommage à M. Ferrero";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-086-recorte4" .
+
+<ZAC-086-recorte4> a schema:CreativeWork;
+  dcterms:title "Noticia sobre homenaje a Guglielmo Ferrero";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-086-recorte3" .
+
+<ZAC-087-tarjeta> a schema:CreativeWork;
+  dcterms:title "Banquet offert par Latina à Madame Aurora Caceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-087-recorte> a schema:CreativeWork;
+  dcterms:title "Agustín Gómez Carrillo";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q20007201>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q20007201> schema:name "Macías del Real, Antonio, 1866-1939" .
+
+<ZAC-088-recorte1> a schema:CreativeWork;
+  dcterms:title "París. El marido de la Otero.";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5379720>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q5379720> schema:name "Gómez Carrillo, Enrique, 1873-1927" .
+
+<ZAC-088-recorte2> a schema:CreativeWork;
+  dcterms:title "Le banquet Ferrero";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-088-recorte3> a schema:CreativeWork;
+  dcterms:title "Noticia sobre homenaje a Guglielmo Ferrero";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-089/090-carta> a schema:CreativeWork;
+  dcterms:title "Carta de V. Checa a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1902-01-04";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-091-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de Federico A. Gutiérrez";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía" .
+
+<ZAC-091/092-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Federico A. Gutierrez a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1486>;
+  dcterms:date "1899-01-10";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-093-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1902-01-11";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-094/095-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Eduardo Diez de Medina a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5340591>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1491>;
+  dcterms:date "1900-04-17";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-096-recorte1> a schema:CreativeWork;
+  dcterms:title "Maria Luisa";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <https%3A//n2t.net/ark%3A/13960/s219q01rzh9>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q5663560> schema:name "Salomón Osorio, Alberto, 1877-1959" .
+
+<https%3A//n2t.net/ark%3A/13960/s219q01rzh9> schema:name "La Neblina: Artes y Letras (Lima, 1896-1897)" .
+
+<ZAC-096-recorte2> a schema:CreativeWork;
+  dcterms:title "Alberto Salomón";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1897";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-096-recorte3> a schema:CreativeWork;
+  dcterms:title "Besos de claustro";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-097-recorte1> a schema:CreativeWork;
+  dcterms:title "La cita muerta";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1899";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-097-recorte2> a schema:CreativeWork;
+  dcterms:title "La tumbas violadas";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1899";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-097-recorte3> a schema:CreativeWork;
+  dcterms:title "La cita muerta";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1899";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-097-recorte4> a schema:CreativeWork;
+  dcterms:title "El ideal moderno";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1901";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-097-recorte5> a schema:CreativeWork;
+  dcterms:title "Humo";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <https%3A//n2t.net/ark%3A/13960/s219q01rzh9>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1895";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-098/099-recorte> a schema:CreativeWork;
+  dcterms:title "Canto patriótico";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <https%3A//n2t.net/ark%3A/13960/s219q01rzh9>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1896";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-100-recorte1> a schema:CreativeWork;
+  dcterms:title "La Roma joven";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1896-09-20";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-100-recorte2> a schema:CreativeWork;
+  dcterms:title "Reina blanca";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q5663560> schema:name "Salomón Osorio, Alberto, 1877-1959" .
+
+<%5Bno%20disponible%5D> schema:name "[no disponible]", "Arana, María Augusta", "Quina Castañón, Pedro",
+    "Consejo Nacional de Mujeres de la República Argentina", "Lima, Miguel M.", "La Ilustración Sud-Americana",
+    "Vico", "[ininteligible]", "Ghigliani, Alejandro", "La Alborada", "Grilo, Antonio",
+    "Actualidades", "Asnières, Francia", "Bellido, F.", "G.B.", "Fondation Alphonse XIII",
+    "Mora, F.", "Pietri-Daudet, A.", "La Voz del Sur (Tacna, 1893-1911)", "Margueritte, L.",
+    "Duminy, Marcel", "L'Amerique Latine", "Battle, Carlos de", "Bloch, E. Henri", "La Crisálida",
+    "Association Internationale de la Presse", "Comune di Milano", "Caras y Caretas" .
+
+<https%3A//www.wikidata.org/wiki/Q2868> schema:name "Lima, Perú" .
+
+<ZAC-101-recorte1> a schema:CreativeWork;
+  dcterms:title "Ser (amor)";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <https%3A//n2t.net/ark%3A/13960/s219q01rzh9>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1896";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//n2t.net/ark%3A/13960/s219q01rzh9> schema:name "La Neblina: Artes y Letras (Lima, 1896-1897)" .
+
+<ZAC-101-recorte2> a schema:CreativeWork;
+  dcterms:title "Garra";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-101-recorte3> a schema:CreativeWork;
+  dcterms:title "Monólogo del suicida con un revólver";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-101-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de Alberto Salomón";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel";
+  dcterms:type "imagen";
+  schema:additionalType "recorte" .
+
+<ZAC-102-recorte> a schema:CreativeWork;
+  dcterms:title "Cristo";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1897";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-103/104-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Godofredo D. Coca a Zoila Aurora Cáceres";
+  dcterms:creator <http%3A//viaf.org/viaf/120504373>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1486>;
+  dcterms:date "1900-03-29";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<http%3A//viaf.org/viaf/120504373> schema:name "Coca, Godofredo D." .
+
+<%5Bno%20aplica%5D> schema:name "[no aplica]" .
+
+<https%3A//www.wikidata.org/wiki/Q1486> schema:name "Buenos Aires, Argentina" .
+
+<ZAC-103-carnet> a schema:CreativeWork;
+  dcterms:title "Carné de Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q3045917>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1902/1903";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "carné de identidad";
+  dcterms:relation "ZAC-081-carnet" .
+
+<https%3A//www.wikidata.org/wiki/Q3045917> schema:name "École des Hautes Études Sociales. École de Journalisme" .
+
+<https%3A//www.wikidata.org/wiki/Q90> schema:name "París, Francia" .
+
+<ZAC-103-tarjeta> a schema:CreativeWork;
+  dcterms:title "Tarjeta de Emma Vely";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q15452068>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q64>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:deu;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<https%3A//www.wikidata.org/wiki/Q15452068> schema:name "Vely, Emma, 1848-1934" .
+
+<https%3A//www.wikidata.org/wiki/Q64> schema:name "Berlín, Alemania" .
+
+<ZAC-105/106-recorte> a schema:CreativeWork;
+  dcterms:title "El discurso del Politeama. (El carácter nacional)";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5663560>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q1324020>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q1324020> schema:name "El Comercio (Lima, 1839-)" .
+
+<ZAC-107/108-tarjeta> a schema:CreativeWork;
+  dcterms:title "Tarjeta de María Augusta Arana";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1904-09-26";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-107/108-postal> a schema:CreativeWork;
+  dcterms:title "Tarjeta postal a Zoila Aurora Cáceres";
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1902";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta postal" .
+
+<ZAC-107-recorte> a schema:CreativeWork;
+  dcterms:title "El indio (A Evangelina)";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q272795>;
+  dcterms:date "1904";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q272795> schema:name "Tacna, Perú" .
+
+<ZAC-107-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel";
+  dcterms:type "imagen";
+  schema:additionalType "recorte" .
+
+<ZAC-109/111-carta> a schema:CreativeWork;
+  dcterms:title "Copia editada de artículo sobre Helene Lange y entrevista epistolar";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1896-01-01";
+  dcterms:language lexvo:deu;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta";
+  dcterms:relation "ZAC-014-carta" .
+
+<ZAC-112-tela> a schema:CreativeWork;
+  dcterms:title "Material textil estampado para Mademoiselle Zoila Caceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "material textil estampado";
+  dcterms:type "objeto físico";
+  schema:additionalType "objeto de recuerdo" .
+
+<ZAC-112-carta> a schema:CreativeWork;
+  dcterms:title "Carta del Consejo Nacional de Mujeres de la República Argentina a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1486>;
+  dcterms:date "1904-11";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-113-recorte> a schema:CreativeWork;
+  dcterms:title "Las teologales. Caridad. Dictado para una velada de beneficencia";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2203>;
+  dcterms:date "1899";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-013-recorte1, ZAC-027-recorte1" .
+
+<https%3A//www.wikidata.org/wiki/Q4822525> schema:name "Cáceres, Zoila Aurora, 1872-1958" .
+
+<https%3A//www.wikidata.org/wiki/Q2203> schema:name "Arica, Chile" .
+
+<ZAC-113-tarjeta> a schema:CreativeWork;
+  dcterms:title "Tarjeta ilustrada Mademoiselle Zoïla Cacérès";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-114/115-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Miguel M. Lima a Zoila Aurora Cácere";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q43509>;
+  dcterms:date "1900-10-01";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q43509> schema:name "Guayaquil, Ecuador" .
+
+<ZAC-116-tarjeta> a schema:CreativeWork;
+  dcterms:title "Tarjeta ilustrada Mademoiselle Z. Caceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-116/117-recorte> a schema:CreativeWork;
+  dcterms:title "Plumas y lápices";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q463299>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q463299> schema:name "Matto de Turner, Clorinda, 1852-1909" .
+
+<ZAC-118/120-folleto> a schema:CreativeWork;
+  dcterms:title "Folleto publicitario Hamburg Brasilien & La Plata";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q565050>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1335>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:deu;
+  dcterms:medium "cartón";
+  dcterms:type "imagen";
+  schema:additionalType "folleto" .
+
+<https%3A//www.wikidata.org/wiki/Q565050> schema:name "Hamburg Südamerkanische Dampfschifffahrts-Gesellschaft" .
+
+<https%3A//www.wikidata.org/wiki/Q1335> schema:name "Montevideo, Uruguay" .
+
+<https%3A//www.wikidata.org/wiki/Q8678> schema:name "Río de Janeiro, Brasil" .
+
+<https%3A//www.wikidata.org/wiki/Q1055> schema:name "Hamburgo, Alemania" .
+
+<ZAC-121-recorte> a schema:CreativeWork;
+  dcterms:title "Eva Angelina";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q104777909>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q104777909> schema:name "Muñoz, Margarita Práxedes, 1862-1909" .
+
+<ZAC-121/122-recorte> a schema:CreativeWork;
+  dcterms:title "Por la infancia";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q272795>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-122-recorte> a schema:CreativeWork;
+  dcterms:title "Ariel. Por José Enrique Rodó";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-123/125-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1492>;
+  dcterms:date "1902-03";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q1492> schema:name "Barcelona, España" .
+
+<ZAC-126/127-tarjeta1> a schema:CreativeWork;
+  dcterms:title "Tarjeta de invitación a banquete";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-126/128-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Vico a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "[ininteligible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-126-tarjeta2> a schema:CreativeWork;
+  dcterms:title "Tarjeta Señorita Zoyla Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-129-recorte1> a schema:CreativeWork;
+  dcterms:title "Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q80947786>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-129-recorte2" .
+
+<https%3A//www.wikidata.org/wiki/Q80947786> schema:name "La Opinión Nacional (Lima, 1873-1913)" .
+
+<ZAC-129-recorte2> a schema:CreativeWork;
+  dcterms:title "¡Memento!";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q80947786>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-015/016-recorte, ZAC-042/043-recorte1" .
+
+<ZAC-130/131-tarjeta1> a schema:CreativeWork;
+  dcterms:title "Tarjeta de invitación a banquete";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q212962>;
+  dcterms:date "1892-09-12";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<https%3A//www.wikidata.org/wiki/Q212962> schema:name "Ainhoa, Francia" .
+
+<ZAC-130-tarjeta2> a schema:CreativeWork;
+  dcterms:title "Tarjeta Mademoiselle Cacérès";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-132-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-133-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de niña";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía" .
+
+<ZAC-133-recorte1> a schema:CreativeWork;
+  dcterms:title "Texto (incompleto) de Alejandro Ghigliani";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1486>;
+  dcterms:date "1899-11";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-133-recorte2> a schema:CreativeWork;
+  dcterms:title "Estrofas";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2887>;
+  dcterms:date "1899";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q2887> schema:name "Santiago, Chile" .
+
+<ZAC-133/134-recorte3> a schema:CreativeWork;
+  dcterms:title "¿Mujer ó mármol?";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q272795>;
+  dcterms:date "1899";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-133-tarjeta1> a schema:CreativeWork;
+  dcterms:title "Tarjeta Mademoiselle Z. Caceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-133-tarjeta2> a schema:CreativeWork;
+  dcterms:title "Tarjeta Srta. Zoila Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1895-06-05";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-135/136-nota> a schema:CreativeWork;
+  dcterms:title "Nota de Victor Margueritte";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q2616465>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "nota" .
+
+<https%3A//www.wikidata.org/wiki/Q2616465> schema:name "Margueritte, Victor, 1866-1942" .
+
+<ZAC-135/136-tarjeta> a schema:CreativeWork;
+  dcterms:title "Tarjeta de invitación a banquete";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-137-recorte1> a schema:CreativeWork;
+  dcterms:title "París. El voto de las mujeres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5379720>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q5379720> schema:name "Gómez Carrillo, Enrique, 1873-1927" .
+
+<ZAC-137-recorte2> a schema:CreativeWork;
+  dcterms:title "L´Ame Japonaise";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q3131489>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q3131489> schema:name "Liebrecht, Henri, 1884-1955" .
+
+<ZAC-138/139-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-140-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Xavier de Carvalho a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q110087177>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q110087177> schema:name "Carvalho, Xavier de, 1862-1919" .
+
+<ZAC-141/143-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-144-recorte> a schema:CreativeWork;
+  dcterms:title "Evangelina y Gómez Carrillo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-145/146-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1902-02-06";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-147-recorte1> a schema:CreativeWork;
+  dcterms:title "Rubén Darío";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5982933>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1906-10";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q5982933> schema:name "Bonafoux, Luis, 1855-1918" .
+
+<ZAC-147/148-recorte2> a schema:CreativeWork;
+  dcterms:title "Gómez Carrillo (La felicidad)";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q173767>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q173767> schema:name "Darío, Rubén, 1867-1916" .
+
+<ZAC-148-recorte3> a schema:CreativeWork;
+  dcterms:title "D. Ricardo Blasco";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q472270>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906-10";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q472270> schema:name "Nordau, Max, 1849-1923" .
+
+<ZAC-148-recorte4> a schema:CreativeWork;
+  dcterms:title "Fernando Mora";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-149-recorte> a schema:CreativeWork;
+  dcterms:title "Le banquet Ferrero";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-086-recorte3, ZAC-086-recorte4, ZAC-088-recorte2, ZAC-088-recorte3" .
+
+<ZAC-149-tarjeta> a schema:CreativeWork;
+  dcterms:title "Souvenir du gala-kermesse";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1906-11-18";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-150-recorte1> a schema:CreativeWork;
+  dcterms:title "Una boda literaria";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q287076>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1905-06-04";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q287076> schema:name "ABC (Madrid, 1903-)" .
+
+<ZAC-150-recorte2> a schema:CreativeWork;
+  dcterms:title "Una boda literaria";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q287076>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1905-06-03";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-151-recorte> a schema:CreativeWork;
+  dcterms:title "Gaston Routier";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-152/153-carta> a schema:CreativeWork;
+  dcterms:title "Carta de José Pardo a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q136632>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1905-06-02";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q136632> schema:name "Pardo y Barreda, José, 1864-1947" .
+
+<ZAC-154-recorte> a schema:CreativeWork;
+  dcterms:title "Perú";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1906-03";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-155-recorte> a schema:CreativeWork;
+  dcterms:title "Nueva institución peruana";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1905-09-30";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-156-tela> a schema:CreativeWork;
+  dcterms:title "Anniversaire \"Alger-Toulon\"";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1906-05-13";
+  dcterms:language lexvo:fra;
+  dcterms:medium "material textil estampado";
+  dcterms:type "objeto físico";
+  schema:additionalType "objeto conmemorativo" .
+
+<ZAC-157/158-carta> a schema:CreativeWork;
+  dcterms:title "Carta de L. Margueritte a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-159/160-recorte> a schema:CreativeWork;
+  dcterms:title "Cartas de París";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1901";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-161-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-162/169-recorte> a schema:CreativeWork;
+  dcterms:title "L'Ame Japonaise";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q12949553>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q1187449111>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q12949553> schema:name "Duc, Lucien, 1849-1915" .
+
+<https%3A//www.wikidata.org/wiki/Q1187449111> schema:name "La Province (París, 1879-1914)" .
+
+<ZAC-170-recorte> a schema:CreativeWork;
+  dcterms:title "L'Idéal";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q1187449111>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-171-recorte> a schema:CreativeWork;
+  dcterms:title "De Marsella a Tokio y El Alma Japonesa. De Gómez Carrillo.";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-171-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de Enrique Gómez Carrillo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía" .
+
+<ZAC-172/173-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-174-recorte> a schema:CreativeWork;
+  dcterms:title "París. El vino de los asesinos";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5379720>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-175-recorte> a schema:CreativeWork;
+  dcterms:title "Carnet Mondain";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1908-04";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-175/176-postal> a schema:CreativeWork;
+  dcterms:title "Tarjeta postal a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[ininteligible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta postal" .
+
+<ZAC-177/178-recorte1> a schema:CreativeWork;
+  dcterms:title "Enrique Gómez Carrillo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//n2t.net/ark%3A/13960/t37086w5c>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906-12-05";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//n2t.net/ark%3A/13960/t37086w5c> schema:name "Les Cinq Langues (París, 1901-1910)" .
+
+<ZAC-178/180-recorte2> a schema:CreativeWork;
+  dcterms:title "El culto de la cortesía";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5379720>;
+  dcterms:publisher <https%3A//n2t.net/ark%3A/13960/t37086w5c>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906-12-05";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-180-recorte3> a schema:CreativeWork;
+  dcterms:title "Á un Poste telegráfico";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q15831581>;
+  dcterms:publisher <https%3A//n2t.net/ark%3A/13960/t37086w5c>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906-12-05";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q15831581> schema:name "Blanco-Belmonte, Marcos Rafael, 1871-1936" .
+
+<ZAC-181/182-recorte4> a schema:CreativeWork;
+  dcterms:title "\"El Alma Japonesa\" de Gómez Carrillo";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q551543>;
+  dcterms:publisher <https%3A//n2t.net/ark%3A/13960/t37086w5c>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906-12-05";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q551543> schema:name "Faguet, Émile, 1847-1916" .
+
+<ZAC-182-recorte5> a schema:CreativeWork;
+  dcterms:title "Lo insepultable";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//n2t.net/ark%3A/13960/t37086w5c>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906-12-05";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-183/184-postal> a schema:CreativeWork;
+  dcterms:title "Tarjeta postal a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[ininteligible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta postal" .
+
+<ZAC-185/186-recorte> a schema:CreativeWork;
+  dcterms:title "Bibliographie";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//n2t.net/ark%3A/13960/t37086w5c>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-187/188-postal> a schema:CreativeWork;
+  dcterms:title "Tarjeta postal a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1902-07-29";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta postal" .
+
+<ZAC-187-nota> a schema:CreativeWork;
+  dcterms:title "Nota a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "nota" .
+
+<ZAC-189-boceto> a schema:CreativeWork;
+  dcterms:title "Boceto de Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "cartón";
+  dcterms:type "imagen";
+  schema:additionalType "impresión";
+  dcterms:relation "ZAC-239-foto1" .
+
+<ZAC-190/191-recorte> a schema:CreativeWork;
+  dcterms:title "Eduardo Diez de Medina";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-190-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de Luis Morote";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel";
+  dcterms:type "imagen";
+  schema:additionalType "recorte" .
+
+<ZAC-192/193-tarjeta> a schema:CreativeWork;
+  dcterms:title "Réception de l'Association Internationale de la Presse";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q71>;
+  dcterms:date "1906-09-18/1906-09-19";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<https%3A//www.wikidata.org/wiki/Q71> schema:name "Ginebra, Suiza" .
+
+<ZAC-194-recorte1> a schema:CreativeWork;
+  dcterms:title "Americanismo";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-194-pase> a schema:CreativeWork;
+  dcterms:title "Tessera di libero ingresso";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q490>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:ita;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "pase" .
+
+<https%3A//www.wikidata.org/wiki/Q490> schema:name "Milán, Italia" .
+
+<ZAC-195-recorte2> a schema:CreativeWork;
+  dcterms:title "Reverso de recorte";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q60>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q60> schema:name "Nueva York, Estados Unidos" .
+
+<ZAC-196-tarjeta> a schema:CreativeWork;
+  dcterms:title "Five O'clock du Figaro";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1910-06-11";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-197-foto> a schema:CreativeWork;
+  dcterms:title "Portada de la revista Caras y Caretas";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q3014183>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía" .
+
+<https%3A//www.wikidata.org/wiki/Q3014183> schema:name "Hernández Morillo, Daniel, 1856-1932" .
+
+<ZAC-198-foto> a schema:CreativeWork;
+  dcterms:title "Retrato al carboncillo de Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q3014183>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía" .
+
+<https%3A//www.wikidata.org/wiki/Q3014183> schema:name "Hernández Morillo, Daniel, 1856-1932" .
+
+<%5Bno%20disponible%5D> schema:name "[no disponible]", "[ininteligible]", "Potain",
+    "Mivielle, Cosme", "Margueritte, L.", "Latina (París)", "El Grito del Pueblo (Guayaquil, 1895)",
+    "González y Campos, Pedro", "Deutscher Frauen-Club", "América Latina", "[no aplica]",
+    "Amérique Latine (París)", "Antéro", "Revue Américaine (París)", "Diario de la Marina (Madrid)",
+    "Écho (París)", "Draghetti da Ferrara, Michelangelo", "Hernández, Julio S.", "Association Lombarde des Journalistes",
+    "Echeverría, M.", "Associazione Lombarda dei Giornalisti", "Società Anonima Toboga",
+    "Comité de la Exposición Universal de Milán", "América Literaria", "R. B. S." .
+
+<ZAC-199/200-postal> a schema:CreativeWork;
+  dcterms:title "Tarjeta postal a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q131491>;
+  dcterms:date "1908-07-27";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta postal" .
+
+<%5Bno%20aplica%5D> schema:name "[no aplica]" .
+
+<https%3A//www.wikidata.org/wiki/Q131491> schema:name "Brighton, Reino Unido" .
+
+<https%3A//www.wikidata.org/wiki/Q90> schema:name "París, Francia" .
+
+<ZAC-201/202-postal1> a schema:CreativeWork;
+  dcterms:title "Tarjeta postal a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1902";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta postal" .
+
+<https%3A//www.wikidata.org/wiki/Q64> schema:name "Berlín, Alemania" .
+
+<ZAC-201/202-postal2> a schema:CreativeWork;
+  dcterms:title "Tarjeta postal a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1902-02-16";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta postal" .
+
+<ZAC-203-nota> a schema:CreativeWork;
+  dcterms:title "Nota a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "nota" .
+
+<ZAC-203/204-postal> a schema:CreativeWork;
+  dcterms:title "Tarjeta postal a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1902-04-11";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta postal" .
+
+<ZAC-204-nota> a schema:CreativeWork;
+  dcterms:title "Nota a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "nota" .
+
+<ZAC-205-nota> a schema:CreativeWork;
+  dcterms:title "Nota a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "nota" .
+
+<ZAC-206-tarjeta1> a schema:CreativeWork;
+  dcterms:title "Tarjeta de Docteur Potain";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-206/207-tarjeta2> a schema:CreativeWork;
+  dcterms:title "Tarjeta de Cosme Mivielle, Director de las Hijas de la Caridad";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-206/207-nota> a schema:CreativeWork;
+  dcterms:title "Nota a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1896-06-04";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "nota" .
+
+<ZAC-208/209-postal> a schema:CreativeWork;
+  dcterms:title "Tarjeta postal a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1908-06-13";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta postal" .
+
+<ZAC-210/211-carta> a schema:CreativeWork;
+  dcterms:title "Carta de L. Margueritte a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-212-tarjeta1> a schema:CreativeWork;
+  dcterms:title "Fête Latine. Banquet Aurora de Caceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1910-05-07";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta";
+  dcterms:relation "ZAC-212/213-tarjeta2" .
+
+<ZAC-212/213-tarjeta2> a schema:CreativeWork;
+  dcterms:title "Banquet offert par la revue \"Latina\" à Madame Aurora de Caceres ";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1910-05-07";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta";
+  dcterms:relation "ZAC-212-tarjeta1, ZAC-198-foto" .
+
+<ZAC-212-recorte> a schema:CreativeWork;
+  dcterms:title "Prisma";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-214/215-nota> a schema:CreativeWork;
+  dcterms:title "Nota a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "nota" .
+
+<ZAC-216-recorte> a schema:CreativeWork;
+  dcterms:title "Carta de Lima";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1900-09-10";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q4822525> schema:name "Cáceres, Zoila Aurora, 1872-1958" .
+
+<https%3A//www.wikidata.org/wiki/Q2868> schema:name "Lima, Perú" .
+
+<ZAC-217-recorte> a schema:CreativeWork;
+  dcterms:title "Isthar";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-241-recorte" .
+
+<ZAC-218-recorte> a schema:CreativeWork;
+  dcterms:title "Cartas europeas";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1901-05";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-219-carta> a schema:CreativeWork;
+  dcterms:title "Carta de la Baronesa de Wilson a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q5830843>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1492>;
+  dcterms:date "1902-05-13";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q5830843> schema:name "Wilson, Emilia Serrano, baronesa de, 1843-1922" .
+
+<https%3A//www.wikidata.org/wiki/Q1492> schema:name "Barcelona, España" .
+
+<ZAC-219-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel";
+  dcterms:type "imagen";
+  schema:additionalType "recorte" .
+
+<ZAC-220/221-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Alvina v. P. de Sala a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q95749957>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1486>;
+  dcterms:date "1903-03-18";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta";
+  dcterms:relation "ZAC-112-carta" .
+
+<https%3A//www.wikidata.org/wiki/Q95749957> schema:name "Sala, Alvina van Praet de" .
+
+<https%3A//www.wikidata.org/wiki/Q1486> schema:name "Buenos Aires, Argentina" .
+
+<ZAC-222-recorte> a schema:CreativeWork;
+  dcterms:title "Espíritu burlón";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q272795>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-010-recorte2, ZAC-019-recorte2, ZAC-033-recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q272795> schema:name "Tacna, Perú" .
+
+<ZAC-222-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de público en una escenificación";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía" .
+
+<ZAC-223/224-postal> a schema:CreativeWork;
+  dcterms:title "Tarjeta postal de Pedro González y Campos a Enrique Gómez Carrillo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta postal" .
+
+<ZAC-225/226-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Darío Perez a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q28723513>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q28518824>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1492>;
+  dcterms:date "1902-05-22";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q28723513> schema:name "Pérez García, Darío, 1869-1945" .
+
+<https%3A//www.wikidata.org/wiki/Q28518824> schema:name "El Liberal (Barcelona, 1901-1935)" .
+
+<ZAC-227-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de esculturas griegas";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía";
+  dcterms:relation "ZAC-227-nota" .
+
+<ZAC-227-nota> a schema:CreativeWork;
+  dcterms:title "Nota sobre fotografía de esculturas griegas";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "nota";
+  dcterms:relation "ZAC-227-foto" .
+
+<ZAC-228/230-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1906-05-29";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-231-foto> a schema:CreativeWork;
+  dcterms:title "Retrato de un hombre";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía" .
+
+<ZAC-232/235-folleto> a schema:CreativeWork;
+  dcterms:title "Folleto publicitario de la Compagnie Générale Transatlantique";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q1121065>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "folleto" .
+
+<https%3A//www.wikidata.org/wiki/Q1121065> schema:name "Compagnie Générale Transatlantique" .
+
+<https%3A//www.wikidata.org/wiki/Q148475> schema:name "Corot, Jean-Baptiste-Camille, 1796-1875" .
+
+<ZAC-233/234-volante> a schema:CreativeWork;
+  dcterms:title "Cabin passenger list";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q1121065>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q60>;
+  dcterms:date "1906-02-22";
+  dcterms:language lexvo:eng;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "volante" .
+
+<https%3A//www.wikidata.org/wiki/Q60> schema:name "Nueva York, Estados Unidos" .
+
+<https%3A//www.wikidata.org/wiki/Q42810> schema:name "El Havre, Francia" .
+
+<ZAC-236-recorte> a schema:CreativeWork;
+  dcterms:title "General Cáceres a las provincias cautivas";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2203>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q2203> schema:name "Arica, Chile" .
+
+<ZAC-237/238-recorte> a schema:CreativeWork;
+  dcterms:title "La mujer argentina";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <https%3A//fuenteshistoricasdelperu.com/2020/06/12/prisma/>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1905-12";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//fuenteshistoricasdelperu.com/2020/06/12/prisma/> schema:name "Prisma (Lima, 1905-1907)" .
+
+<ZAC-239-foto1> a schema:CreativeWork;
+  dcterms:title "Fotografía de grupo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía";
+  dcterms:relation "ZAC-239-foto2, ZAC-189-boceto" .
+
+<ZAC-239-foto2> a schema:CreativeWork;
+  dcterms:title "Fotografía de grupo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía";
+  dcterms:relation "ZAC-239-foto1" .
+
+<ZAC-240-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía" .
+
+<ZAC-241-recorte> a schema:CreativeWork;
+  dcterms:title "Isthar";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-217-recorte" .
+
+<ZAC-242/243-postal> a schema:CreativeWork;
+  dcterms:title "Tarjeta postal de la revista Latina";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta postal" .
+
+<ZAC-242-carnet> a schema:CreativeWork;
+  dcterms:title "Carné de Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q64>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:deu;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "carné de identidad" .
+
+<ZAC-244-recorte> a schema:CreativeWork;
+  dcterms:title "Clorinda Matto de Turner";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q463299>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q463299> schema:name "M.J.S" .
+
+<ZAC-245/249-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Katharina Zitelmann [entrevista epistolar]";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q1736024>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q64>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:deu;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q1736024> schema:name "Zitelmann, Katharina, 1844-1926" .
+
+<ZAC-250-nota> a schema:CreativeWork;
+  dcterms:title "Nota de von Tschirschky und Bögendorff a Enrique Gómez Carrillo";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q214006>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q64>;
+  dcterms:date "1906-12-22";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "nota" .
+
+<https%3A//www.wikidata.org/wiki/Q214006> schema:name "Tschirschky, Heinrich von 1858-1915" .
+
+<ZAC-251-recorte1> a schema:CreativeWork;
+  dcterms:title "Enrique Gómez Carrillo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q3327138>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2807>;
+  dcterms:date "1906-06-01";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q3327138> schema:name "El Liberal (Madrid, 1879-1939)" .
+
+<https%3A//www.wikidata.org/wiki/Q2807> schema:name "Madrid, España" .
+
+<ZAC-251-comprobante> a schema:CreativeWork;
+  dcterms:title "Comprobante de Argus de la Presse";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q16650919>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "comprobante";
+  dcterms:relation "ZAC-251-recorte2" .
+
+<https%3A//www.wikidata.org/wiki/Q16650919> schema:name "Argus de la Presse" .
+
+<ZAC-251-recorte2> a schema:CreativeWork;
+  dcterms:title "Nota sobre la boda de Zoila Aurora Cáceres con Enrique Gómez Carrillo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906-06-07";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-251-comprobante" .
+
+<ZAC-251-recorte3> a schema:CreativeWork;
+  dcterms:title "Matrimonio";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1906";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-251-recorte4> a schema:CreativeWork;
+  dcterms:title "Matrimonio";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//archivo.rae.es/index.php/la-republica-diario-guatemala-1890>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q212773>;
+  dcterms:date "1906-07-02";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//archivo.rae.es/index.php/la-republica-diario-guatemala-1890> schema:name
+    "La República (Guatemala, 1890-?)" .
+
+<https%3A//www.wikidata.org/wiki/Q212773> schema:name "Antigua, Guatemala" .
+
+<ZAC-252/253-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q2869328>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2807>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q2869328> schema:name "Ateneo Científico, Literario y Artístico (1820-)" .
+
+<ZAC-254-recorte1> a schema:CreativeWork;
+  dcterms:title "La boda de Gómez Carillo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//archivo.rae.es/index.php/la-republica-diario-guatemala-1890>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q212773>;
+  dcterms:date "1906-07-13";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-254-recorte2> a schema:CreativeWork;
+  dcterms:title "Matrimonio de Gómez Carrillo. Viaje a Italia";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<ZAC-254-comprobante1> a schema:CreativeWork;
+  dcterms:title "Comprobante de Argus de la Presse";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q16650919>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "comprobante";
+  dcterms:relation "ZAC-254-recorte3" .
+
+<ZAC-254-recorte3> a schema:CreativeWork;
+  dcterms:title "Mariages";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906-05-29";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-254-comprobante1" .
+
+<ZAC-254-comprobante2> a schema:CreativeWork;
+  dcterms:title "Comprobante de Argus de la Presse";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q16650919>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "comprobante";
+  dcterms:relation "ZAC-254-recorte4" .
+
+<ZAC-254-recorte4> a schema:CreativeWork;
+  dcterms:title "Communiques de mariages";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q3224404>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906-05-29";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-254-comprobante2" .
+
+<https%3A//www.wikidata.org/wiki/Q3224404> schema:name "Le Matin (París, 1884-1944)" .
+
+<ZAC-254-comprobante3> a schema:CreativeWork;
+  dcterms:title "Comprobante de Argus de la Presse";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q16650919>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "comprobante";
+  dcterms:relation "ZAC-254-recorte5" .
+
+<ZAC-254-recorte5> a schema:CreativeWork;
+  dcterms:title "Anuncio de la boda de Zoila Aurora Cáceres con Enrique Gómez Carrillo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q216047>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906-05-28";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-254-comprobante3" .
+
+<https%3A//www.wikidata.org/wiki/Q216047> schema:name "Le Figaro (París, 1826-)" .
+
+<ZAC-254-comprobante4> a schema:CreativeWork;
+  dcterms:title "Comprobante de Argus de la Presse";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q16650919>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "comprobante";
+  dcterms:relation "ZAC-254-recorte6" .
+
+<ZAC-254-recorte6> a schema:CreativeWork;
+  dcterms:title "Anuncio de la boda de Zoila Aurora Cáceres con Enrique Gómez Carrillo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q3205139>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906-05-28";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-254-comprobante4" .
+
+<https%3A//www.wikidata.org/wiki/Q3205139> schema:name "L'Écho de Paris (París, 1884-1938)" .
+
+<ZAC-256/258-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Gabriele Reuter a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q99301>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q64>;
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q99301> schema:name "Reuter, Gabriele, 1859-1941" .
+
+<ZAC-259-comprobante1> a schema:CreativeWork;
+  dcterms:title "Comprobante de Argus de la Presse";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q16650919>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "comprobante";
+  dcterms:relation "ZAC-259-recorte1" .
+
+<ZAC-259-recorte1> a schema:CreativeWork;
+  dcterms:title "Nota sobre la boda de Zoila Aurora Cáceres con Enrique Gómez Carrillo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q3204265>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906-06-08";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-259-comprobante1" .
+
+<https%3A//www.wikidata.org/wiki/Q3204265> schema:name "L'Intransigeant (París, 1880-1948)" .
+
+<ZAC-259-comprobante2> a schema:CreativeWork;
+  dcterms:title "Comprobante de Argus de la Presse";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q16650919>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "comprobante";
+  dcterms:relation "ZAC-259-recorte2" .
+
+<ZAC-259-recorte2> a schema:CreativeWork;
+  dcterms:title "Gomez-Carrillo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906-07-15";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-259-comprobante2" .
+
+<ZAC-259-comprobante3> a schema:CreativeWork;
+  dcterms:title "Comprobante de Argus de la Presse";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q16650919>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "comprobante";
+  dcterms:relation "ZAC-259-recorte3" .
+
+<ZAC-259-recorte3> a schema:CreativeWork;
+  dcterms:title "Publicaciones. Tarde de octubre";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2807>;
+  dcterms:date "1906-10-12";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-259-comprobante3" .
+
+<ZAC-259-comprobante4> a schema:CreativeWork;
+  dcterms:title "Comprobante de Argus de la Presse";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q16650919>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "comprobante";
+  dcterms:relation "ZAC-259-recorte4" .
+
+<ZAC-259-recorte4> a schema:CreativeWork;
+  dcterms:title "Nota sobre la boda de Zoila Aurora Cáceres con Enrique Gómez Carrillo";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1906-06-05";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-259-comprobante4" .
+
+<ZAC-260-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "1907-09-25";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-261-recorte> a schema:CreativeWork;
+  dcterms:title "Notas sociales. Matrimonio entre intelectuales";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <https%3A//www.wikidata.org/wiki/Q1324020>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte" .
+
+<https%3A//www.wikidata.org/wiki/Q1324020> schema:name "El Comercio (Lima, 1839-)" .
+
+<ZAC-262-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1907-01-08";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-263/264-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Michelangelo Draghetti a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q52981>;
+  dcterms:date "1907-08-30";
+  dcterms:language lexvo:ita;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q52981> schema:name "Faenza, Italia" .
+
+<ZAC-265-nota> a schema:CreativeWork;
+  dcterms:title "Nota sobre direcciones en Nancy, Francia";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:fra;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "nota" .
+
+<ZAC-266/271-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Marie Robinson Wright a Zoila Aurora Cáceres";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q56604012>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q8678>;
+  dcterms:date "1907-06-01";
+  dcterms:language lexvo:eng;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<https%3A//www.wikidata.org/wiki/Q56604012> schema:name "Wright, Marie Robinson, 1866-1914" .
+
+<https%3A//www.wikidata.org/wiki/Q8678> schema:name "Río de Janeiro, Brasil" .
+
+<ZAC-272/283-borrador> a schema:CreativeWork;
+  dcterms:title "Programa del Centro Social";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q4822525>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "borrador" .
+
+<ZAC-284> a schema:CreativeWork;
+  dcterms:title "Página en blanco" .
+
+<ZAC-285-carta> a schema:CreativeWork;
+  dcterms:title "Carta de Julio Hernández a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q2868>;
+  dcterms:date "1905-12";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-286-tarjeta1> a schema:CreativeWork;
+  dcterms:title "Tarjeta de invitación a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q490>;
+  dcterms:date "1906-09-21";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<https%3A//www.wikidata.org/wiki/Q490> schema:name "Milán, Italia" .
+
+<ZAC-286-tarjeta2> a schema:CreativeWork;
+  dcterms:title "Tarjeta de invitación a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q490>;
+  dcterms:date "1906-09-21";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<ZAC-287-postal> a schema:CreativeWork;
+  dcterms:title "Tarjeta postal con fotografía de mujer y niña en mural con dibujo de avioneta [cartolina postale]";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:ita;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta postal" .
+
+<ZAC-287-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de mujeres y hombres al lado de automóvil";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel fotográfico";
+  dcterms:type "imagen";
+  schema:additionalType "fotografía" .
+
+<ZAC-287-nota> a schema:CreativeWork;
+  dcterms:title "Nota de M. Echeverría a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q1486>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "nota" .
+
+<ZAC-288/289-tarjeta> a schema:CreativeWork;
+  dcterms:title "Tarjeta de invitación a banquete ";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q71>;
+  dcterms:date "1906-09-18";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<https%3A//www.wikidata.org/wiki/Q71> schema:name "Ginebra, Suiza" .
+
+<ZAC-290/291-tarjeta> a schema:CreativeWork;
+  dcterms:title "Tarjeta de invitación a San Pellegrino";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q490>;
+  dcterms:date "1906-09-23";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<https%3A//www.wikidata.org/wiki/Q101551> schema:name "San Pellegrino Terme, Italia" .
+
+<ZAC-290/291-pase> a schema:CreativeWork;
+  dcterms:title "Ingresso permanente al Toboga ed aeroplano";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q490>;
+  dcterms:date "1906";
+  dcterms:language lexvo:ita;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "pase" .
+
+<ZAC-292-tarjeta> a schema:CreativeWork;
+  dcterms:title "Tarjeta de invitación a cena";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q18758654>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q490>;
+  dcterms:date "1906-09-24";
+  dcterms:language lexvo:fra;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<https%3A//www.wikidata.org/wiki/Q18758654> schema:name "Mangili, Cesare, 1850-1917" .
+
+<ZAC-293> a schema:CreativeWork;
+  dcterms:title "Página en blanco" .
+
+<ZAC-294-carta> a schema:CreativeWork;
+  dcterms:title "Carta a Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q90>;
+  dcterms:date "1907-10-29";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "carta" .
+
+<ZAC-294/295-pase> a schema:CreativeWork;
+  dcterms:title "Tessera temporanea stampa";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20aplica%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q490>;
+  dcterms:date "1906";
+  dcterms:language lexvo:ita;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "pase" .
+
+<ZAC-296-foto> a schema:CreativeWork;
+  dcterms:title "Fotografía de Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:%5Bno%20aplica%5D;
+  dcterms:medium "papel";
+  dcterms:type "imagen";
+  schema:additionalType "recorte" .
+
+<ZAC-296-recorte> a schema:CreativeWork;
+  dcterms:title "Zoila Aurora Cáceres";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q105037>;
+  dcterms:date "1903-04-24";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "texto";
+  schema:additionalType "recorte";
+  dcterms:relation "ZAC-296-foto" .
+
+<https%3A//www.wikidata.org/wiki/Q105037> schema:name "Callao, Perú" .
+
+<ZAC-298/299-tarjeta> a schema:CreativeWork;
+  dcterms:title "Christmas greetings";
+  dcterms:creator <https%3A//www.wikidata.org/wiki/Q3819089>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <https%3A//www.wikidata.org/wiki/Q84>;
+  dcterms:date "[ininteligible]";
+  dcterms:language lexvo:eng;
+  dcterms:medium "cartón";
+  dcterms:type "texto";
+  schema:additionalType "tarjeta" .
+
+<https%3A//www.wikidata.org/wiki/Q3819089> schema:name "Valencia, Tórtola, 1882-1955" .
+
+<%5Bno%20disponible%5D> schema:name "[no disponible]" .
+
+<https%3A//www.wikidata.org/wiki/Q84> schema:name "Londres, Reino Unido" .
+
+<ZAC-299> a schema:CreativeWork;
+  dcterms:title "Página en blanco" .
+
+<ZAC-300-afiche> a schema:CreativeWork;
+  dcterms:title "Afiche de Tórtola Valencia. La bailarina de los pies desnudos";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "imagen";
+  schema:additionalType "recorte" .
+
+<ZAC-301-afiche> a schema:CreativeWork;
+  dcterms:title "Afiche de Tórtola Valencia. Danza arcaica genuina del Perú";
+  dcterms:creator <%5Bno%20disponible%5D>;
+  dcterms:publisher <%5Bno%20disponible%5D>;
+  dcterms:spatial <%5Bno%20disponible%5D>;
+  dcterms:date "[no disponible]";
+  dcterms:language lexvo:spa;
+  dcterms:medium "papel";
+  dcterms:type "imagen";
+  schema:additionalType "recorte" .
+
+<ZAC-302/303> a schema:CreativeWork;
+  dcterms:title "Página en blanco" .
+
+<ZAC-304> a schema:CreativeWork;
+  dcterms:title "Tapa dura de álbum" .
